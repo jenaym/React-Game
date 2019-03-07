@@ -15,4 +15,4 @@ function NavBar(props) {
     )
 }
 
-export defeault NavBar;
+export default NavBar;

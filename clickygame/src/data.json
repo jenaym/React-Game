@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/dubai-skyline.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "/assets/hongKong.jpg",
+        "clicked": false
+      },
+      {
+        "id": 3,
+        "image": "/assets/lasVegas.jpg",
+        "clicked": false
+      },
+      {
+        "id": 4,
+        "image": "/assets/london.jpg",
+        "clicked": false
+      },
+      {
+        "id": 5,
+        "image": "/assets/newYork.jpg",
+        "clicked": false
+      }
+
+]

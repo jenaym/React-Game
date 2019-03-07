@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Item from "../Item";
-import imageData from "../../imageData.json";
+import imageData from "../../data.json";
 import NavBar from "../NavBar";
 import Header from "../Header";
 import ContentContainer from "../ContentContainer";
@@ -48,8 +48,7 @@ class Game extends Component {
     //Function to handle incorrect answer
     handleIncorrectAnswer = imageData => {
         const resetGame = imageData.map(clickItem => ({
-            // id:clickItem.id,
-            // image:clickItem.image,
+            ...clickItem,
             clicked: false 
         }));
         this.setState({
@@ -59,7 +58,23 @@ class Game extends Component {
     }
 
     handleImageClick = id => {
-
+        let correctAnswer = false;
+        const newImageData = this.state.imageData.map(clickItem => {
+            const newClickItem = { ...clickItem};
+            if (newClickItem.id === id) {
+                if (!newClickItem.clicked) {
+                    correctAnswer = true;
+                    newClickItem.clicked = true;
+                }
+            }
+            return newClickItem;
+        });
+        if (correctAnswer) {
+            return this.handleCorrectAnswer(newImageData)
+        }
+        else {
+            return this.handleIncorrectAnswer(newImageData);
+        }
     }
 
 
@@ -76,7 +91,7 @@ class Game extends Component {
                             id={clickItem.id}
                             shake={!this.state.score && this.state.topScore}
                             handleClick={this.handleImageClick}
-                            pic={clickItem.pic}
+                            image={clickItem.image}
                         />
                     ))}
 
@@ -85,3 +100,5 @@ class Game extends Component {
         )
     }
 }
+
+export default Game;
