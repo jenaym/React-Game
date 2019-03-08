@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Item(props) {
     return (
@@ -6,8 +7,8 @@ function Item(props) {
         role="img"
         aria-label="item"
         onClick={() => props.handleClick(props.id)}
-        style={{ image: `url("${props.pic}")` }}
-        className={`item${props.shake ? " shake" : ""}`}
+        style={{ backgroundImage: `url("${props.image}")` }}
+        className={`item`}
         />
     );
 }

@@ -1,0 +1,13 @@
+.navbar {
+    text-align: center;
+    background: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+
+
+li {
+    text-align: center;
+    list-style: none;
+    font-size: 22px;
+}
