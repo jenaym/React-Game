@@ -1,4 +1,4 @@
-# Clicky Game -- City Skyline Edition
+# Clicky Game -- City Sky Edition
 ### Overview
 - This is a memory game web application using React.
 
