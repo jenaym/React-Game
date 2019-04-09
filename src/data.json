@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "/assets/dubai-skyline.jpg",
+        "image": "./assets/dubai-skyline.jpg",
         "clicked": false
     },
     {
         "id": 2,
-        "image": "/assets/hongKong.jpg",
+        "image": "./assets/hongKong.jpg",
         "clicked": false
       },
       {
         "id": 3,
-        "image": "/assets/lasVegas.jpg",
+        "image": "./assets/lasVegas.jpg",
         "clicked": false
       },
       {
         "id": 4,
-        "image": "/assets/london.jpg",
+        "image": "./assets/london.jpg",
         "clicked": false
       },
       {
         "id": 5,
-        "image": "/assets/newYork.jpg",
+        "image": "./assets/newYork.jpg",
         "clicked": false
       },
       {
         "id": 6,
-        "image": "/assets/rio.png",
+        "image": "./assets/rio.png",
         "clicked": false
     },
     {
         "id": 7,
-        "image": "/assets/sanFran.png",
+        "image": "./assets/sanFran.png",
         "clicked": false
       },
       {
         "id": 8,
-        "image": "/assets/seattle.png",
+        "image": "./assets/seattle.png",
         "clicked": false
       },
       {
         "id": 9,
-        "image": "/assets/shanghai.png",
+        "image": "./assets/shanghai.png",
         "clicked": false
       },
       {
         "id": 10,
-        "image": "/assets/sydney.png",
+        "image": "./assets/sydney.png",
         "clicked": false
       },
       {
         "id": 11,
-        "image": "/assets/boston.png",
+        "image": "./assets/boston.png",
         "clicked": false
       },
       {
         "id": 12,
-        "image": "/assets/chicago.png",
+        "image": "./assets/chicago.png",
         "clicked": false
       }
 
