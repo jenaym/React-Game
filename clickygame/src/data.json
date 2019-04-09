@@ -23,6 +23,41 @@
         "id": 5,
         "image": "/assets/newYork.jpg",
         "clicked": false
+      },
+      {
+        "id": 6,
+        "image": "/assets/rio.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "/assets/sanFran.png",
+        "clicked": false
+      },
+      {
+        "id": 8,
+        "image": "/assets/seattle.png",
+        "clicked": false
+      },
+      {
+        "id": 9,
+        "image": "/assets/shanghai.png",
+        "clicked": false
+      },
+      {
+        "id": 10,
+        "image": "/assets/sydney.png",
+        "clicked": false
+      },
+      {
+        "id": 11,
+        "image": "/assets/boston.png",
+        "clicked": false
+      },
+      {
+        "id": 12,
+        "image": "/assets/chicago.png",
+        "clicked": false
       }
 
 ]
